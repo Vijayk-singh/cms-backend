@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/jankariDB", {
+    await mongoose.connect("mongodb+srv://vijaykumarstage:%40Vijay%2A420%23@cluster0.v6aqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" || "mongodb://localhost:27017/jankariDB" , {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

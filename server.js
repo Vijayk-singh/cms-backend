@@ -9,7 +9,7 @@ const dotenv = require('dotenv');
 // CORS Configuration
 dotenv.config();
 const corsOptions = {
-  origin: 'http://localhost:3000', // Frontend URL
+  origin: 'https://jankari.netlify.app/', // Frontend URL
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type,Authorization'
 };
